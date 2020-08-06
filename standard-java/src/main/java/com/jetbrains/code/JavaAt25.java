@@ -16,8 +16,6 @@ public class JavaAt25 {
         final List<String> strings = new ArrayList<>();
         final Map<Integer, String> map = new HashMap<>();
         final Set<Integer> integers = new HashSet<>();
-
-
     }
 
     private void weLoveCollectionsFactories() {
@@ -84,20 +82,8 @@ public class JavaAt25 {
         new MyInnerClass();
     }
 
-    private String weLoveSwitchExpressions(int someValue) {
-        return switch (someValue) {
-            case 1 -> "first value";
-            case 2 -> "second value";
-            default -> throw new IllegalStateException("Unexpected value: " + someValue);
-        };
-    }
-
     private void weLoveHelpfulNullPointerExceptions() {
         System.out.println(getEmailAddress().toString());
-    }
-
-    private void weLoveNewPreviewFeatures() {
-        var name = new MyRecord(1, "name");
     }
 
     private void happyBirthdayJava() {
@@ -111,5 +97,4 @@ public class JavaAt25 {
     static class MyInnerClass {
     }
 
-    private record MyRecord(int id, String name) { }
 }

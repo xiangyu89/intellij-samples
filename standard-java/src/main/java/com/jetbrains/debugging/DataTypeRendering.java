@@ -1,7 +1,5 @@
 package com.jetbrains.debugging;
 
-import com.jetbrains.entity.Customer;
-
 public class DataTypeRendering {
 
     public static void main(String[] args) {

@@ -17,12 +17,12 @@
       <module name="com.jetbrains_buildSrc_main" target="1.10" />
       <module name="com.jetbrains_buildSrc_test" target="1.10" />
       <module name="spring-tricks" target="11" />
-      <module name="standard-java" target="15" />
+      <module name="standard-java" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="standard-java" options="--enable-preview" />
+      <module name="standard-java" options="" />
     </option>
   </component>
 </project>
